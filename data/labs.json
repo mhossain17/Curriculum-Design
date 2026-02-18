@@ -1,0 +1,820 @@
+[
+  {
+    "id": "lab-kit-inventory",
+    "unitId": "pre-unit-0",
+    "title": "Kit Inventory and Accountability Check",
+    "purpose": "Ensure every student can identify, organize, and account for all kit materials before powered labs begin.",
+    "discoveryFocus": "Professional lab readiness and material verification.",
+    "whatStudentsDiscover": "How systematic organization prevents troubleshooting delays and missing-material risk.",
+    "priorKnowledge": [
+      "Basic classroom safety norms",
+      "How to read alphanumeric labels on chip packaging"
+    ],
+    "prerequisiteLabIds": [],
+    "chipsNeeded": ["555", "7408", "7400", "7432", "7402", "7486", "7404", "74107", "7447"],
+    "complexity": "Foundational",
+    "steps": [
+      "Unpack and sort kit materials by category.",
+      "Match each component to the inventory sheet code.",
+      "Flag missing or damaged items and request replacements.",
+      "Photograph organized kit layout for notebook evidence.",
+      "Submit inventory sheet and sign accountability statement."
+    ],
+    "deliverables": [
+      "Completed inventory sheet",
+      "Notebook photo evidence",
+      "Signed accountability statement"
+    ],
+    "truthTables": [],
+    "rubric": {
+      "title": "Inventory Completion Rubric",
+      "rows": [
+        {
+          "criterion": "Inventory Accuracy",
+          "levels": {
+            "4": "All items verified and recorded with condition notes.",
+            "3": "Most items verified with minor omissions.",
+            "2": "Several items missing from record.",
+            "1": "Inventory largely incomplete."
+          }
+        },
+        {
+          "criterion": "Organization",
+          "levels": {
+            "4": "Kit is organized clearly for fast retrieval.",
+            "3": "Kit is mostly organized.",
+            "2": "Organization is inconsistent.",
+            "1": "Kit remains disorganized."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Have backup kits pre-counted to avoid downtime.",
+      "Take attendance-linked photos for asset tracking."
+    ],
+    "type": "Lab"
+  },
+  {
+    "id": "lab-ic-pin-identification",
+    "unitId": "pre-unit-0",
+    "title": "IC Pin ID and Orientation Drill",
+    "purpose": "Build confidence reading DIP chip orientation and identifying pin numbering conventions.",
+    "discoveryFocus": "Reliable identification of pin 1 and counting direction.",
+    "whatStudentsDiscover": "How orientation errors can invert logic behavior or damage circuit assumptions.",
+    "priorKnowledge": [
+      "Kit inventory routines",
+      "Basic IC handling procedures"
+    ],
+    "prerequisiteLabIds": ["lab-kit-inventory"],
+    "chipsNeeded": ["7404", "7408", "7486"],
+    "complexity": "Foundational",
+    "steps": [
+      "Inspect chip casing and locate notch or dot indicator.",
+      "Mark pin 1 on a printed chip diagram.",
+      "Practice pin counting on three chip variants.",
+      "Complete timed orientation check with peer verification.",
+      "Explain orientation process verbally to teacher."
+    ],
+    "deliverables": [
+      "Annotated chip diagrams",
+      "Timed check score",
+      "Oral explanation"
+    ],
+    "truthTables": [],
+    "rubric": {
+      "title": "Pin ID Rubric",
+      "rows": [
+        {
+          "criterion": "Pin Orientation Accuracy",
+          "levels": {
+            "4": "Accurate across all samples with clear justification.",
+            "3": "Accurate on most samples.",
+            "2": "Inconsistent accuracy.",
+            "1": "Frequent orientation errors."
+          }
+        },
+        {
+          "criterion": "Procedure Communication",
+          "levels": {
+            "4": "Explains process precisely and confidently.",
+            "3": "Explains process clearly.",
+            "2": "Explanation is partial.",
+            "1": "Cannot explain procedure."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Use overhead camera to model notch and dot variations.",
+      "Correct misconceptions before any powered breadboard work."
+    ],
+    "type": "Lab"
+  },
+  {
+    "id": "lab-digital-waveforms",
+    "unitId": "unit-1",
+    "title": "Digital Waveforms Worksheet",
+    "purpose": "Practice reading, labeling, and interpreting digital state transitions in timed signal diagrams.",
+    "discoveryFocus": "Relationship between timing intervals and binary state changes.",
+    "whatStudentsDiscover": "How pulse width, period, and edges communicate behavior in digital systems.",
+    "priorKnowledge": [
+      "Binary number basics",
+      "Coordinate graph reading"
+    ],
+    "prerequisiteLabIds": ["lab-ic-pin-identification"],
+    "chipsNeeded": ["555"],
+    "complexity": "Foundational",
+    "steps": [
+      "Review waveform axes and notation conventions.",
+      "Label high and low intervals on provided traces.",
+      "Determine period and approximate duty cycle for each signal.",
+      "Answer scenario questions predicting output changes.",
+      "Compare responses with a partner and revise claims."
+    ],
+    "deliverables": [
+      "Completed waveform worksheet",
+      "Notebook reflection on one misconception"
+    ],
+    "truthTables": [
+      {
+        "title": "Two-State Signal Template",
+        "columns": ["Interval", "Input A", "Output Q"],
+        "rows": [
+          ["T1", "0", "_"],
+          ["T2", "1", "_"],
+          ["T3", "1", "_"],
+          ["T4", "0", "_"]
+        ]
+      }
+    ],
+    "rubric": {
+      "title": "Waveform Worksheet Rubric",
+      "rows": [
+        {
+          "criterion": "Annotation Completeness",
+          "levels": {
+            "4": "All traces annotated accurately with correct labels.",
+            "3": "Most traces annotated accurately.",
+            "2": "Partial annotations with errors.",
+            "1": "Annotations mostly missing."
+          }
+        },
+        {
+          "criterion": "Reasoning",
+          "levels": {
+            "4": "Explanations are evidence-based and precise.",
+            "3": "Explanations are mostly accurate.",
+            "2": "Explanations are partially correct.",
+            "1": "Explanations are minimal or inaccurate."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Use this worksheet as a bridge to hands-on timer observations.",
+      "Require students to cite at least two intervals as evidence."
+    ],
+    "type": "Worksheet"
+  },
+  {
+    "id": "lab-clock-signal-observation",
+    "unitId": "unit-1",
+    "title": "Clock Signal Observation Lab",
+    "purpose": "Observe periodic output behavior and connect physical LED changes to waveform representation.",
+    "discoveryFocus": "Timing regularity in generated clock signals.",
+    "whatStudentsDiscover": "Physical outputs map directly to traceable high/low timing patterns.",
+    "priorKnowledge": [
+      "Waveform annotation",
+      "Basic breadboard setup"
+    ],
+    "prerequisiteLabIds": ["lab-digital-waveforms"],
+    "chipsNeeded": ["555"],
+    "complexity": "Intermediate",
+    "steps": [
+      "Build the provided 555 timer demo circuit.",
+      "Observe LED blink pattern and estimate timing intervals.",
+      "Record observations over 5 repeated cycles.",
+      "Sketch a waveform matching observed behavior.",
+      "Compare with partner sketch and reconcile differences."
+    ],
+    "deliverables": [
+      "Observation table",
+      "Hand-drawn waveform",
+      "Claim-evidence statement"
+    ],
+    "truthTables": [
+      {
+        "title": "Cycle Observation Table",
+        "columns": ["Cycle", "High Duration (s)", "Low Duration (s)", "Total Period (s)"],
+        "rows": [
+          ["1", "_", "_", "_"],
+          ["2", "_", "_", "_"],
+          ["3", "_", "_", "_"],
+          ["4", "_", "_", "_"],
+          ["5", "_", "_", "_"]
+        ]
+      }
+    ],
+    "rubric": {
+      "title": "Clock Observation Rubric",
+      "rows": [
+        {
+          "criterion": "Data Collection",
+          "levels": {
+            "4": "Repeated measurements are complete and consistent.",
+            "3": "Measurements are mostly complete.",
+            "2": "Incomplete or inconsistent measurements.",
+            "1": "Insufficient data collected."
+          }
+        },
+        {
+          "criterion": "Waveform Representation",
+          "levels": {
+            "4": "Sketch accurately reflects observed timing behavior.",
+            "3": "Sketch reflects most observed behavior.",
+            "2": "Sketch partially reflects behavior.",
+            "1": "Sketch does not reflect observations."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Provide pre-built reference circuit for troubleshooting.",
+      "Focus feedback on evidence quality, not artistic waveform style."
+    ],
+    "type": "Lab"
+  },
+  {
+    "id": "lab-7404-not-discovery",
+    "unitId": "unit-2",
+    "title": "7404 Unknown Chip Discovery (NOT)",
+    "purpose": "Determine unknown chip behavior through controlled testing and infer inverter logic.",
+    "discoveryFocus": "Single-input inversion behavior.",
+    "whatStudentsDiscover": "Output state consistently flips input state, indicating NOT gate behavior.",
+    "priorKnowledge": [
+      "Waveform and binary basics",
+      "Breadboard wiring safety"
+    ],
+    "prerequisiteLabIds": ["lab-clock-signal-observation"],
+    "chipsNeeded": ["7404"],
+    "complexity": "Intermediate",
+    "steps": [
+      "Build test rig with one input and one LED output.",
+      "Toggle input between 0 and 1 while recording output.",
+      "Repeat each condition for verification.",
+      "Complete truth table and infer gate behavior.",
+      "Write evidence-based claim before chip name reveal."
+    ],
+    "deliverables": [
+      "Completed truth table",
+      "Observation notes",
+      "Claim statement"
+    ],
+    "truthTables": [
+      {
+        "title": "Unknown Single-Input Gate",
+        "columns": ["Input A", "Observed Output Q"],
+        "rows": [
+          ["0", "_"],
+          ["1", "_"]
+        ]
+      }
+    ],
+    "rubric": {
+      "title": "Discovery Lab Rubric",
+      "rows": [
+        {
+          "criterion": "Testing Method",
+          "levels": {
+            "4": "Method is controlled and repeatable with clear notes.",
+            "3": "Method is mostly controlled.",
+            "2": "Method has inconsistencies.",
+            "1": "Method lacks control."
+          }
+        },
+        {
+          "criterion": "Claim Quality",
+          "levels": {
+            "4": "Claim is precise and fully supported by data.",
+            "3": "Claim is supported by most data.",
+            "2": "Claim is partially supported.",
+            "1": "Claim unsupported or unclear."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Do not label chip in advance; keep it as mystery component.",
+      "Push students to cite at least two data points in claims."
+    ],
+    "type": "Lab"
+  },
+  {
+    "id": "lab-7408-and-discovery",
+    "unitId": "unit-2",
+    "title": "7408 Unknown Chip Discovery (AND)",
+    "purpose": "Infer two-input gate behavior through exhaustive input testing.",
+    "discoveryFocus": "Conjunction behavior in two-input logic.",
+    "whatStudentsDiscover": "Output goes high only when both inputs are high, matching AND logic.",
+    "priorKnowledge": [
+      "Single-input truth table setup",
+      "Breadboard wiring from prior discovery labs"
+    ],
+    "prerequisiteLabIds": ["lab-7404-not-discovery"],
+    "chipsNeeded": ["7408"],
+    "complexity": "Intermediate",
+    "steps": [
+      "Wire two-input test circuit with LEDs and switches.",
+      "Test all four input combinations.",
+      "Repeat trials and reconcile anomalies.",
+      "Complete truth table.",
+      "Draft initial gate identity claim."
+    ],
+    "deliverables": [
+      "Truth table",
+      "Notebook data log",
+      "Draft identity claim"
+    ],
+    "truthTables": [
+      {
+        "title": "Unknown Two-Input Gate A",
+        "columns": ["Input A", "Input B", "Observed Output Q"],
+        "rows": [
+          ["0", "0", "_"],
+          ["0", "1", "_"],
+          ["1", "0", "_"],
+          ["1", "1", "_"]
+        ]
+      }
+    ],
+    "rubric": {
+      "title": "AND Discovery Rubric",
+      "rows": [
+        {
+          "criterion": "Data Completeness",
+          "levels": {
+            "4": "All combinations tested with repeated verification.",
+            "3": "All combinations tested once.",
+            "2": "One combination missing or unclear.",
+            "1": "Multiple combinations missing."
+          }
+        },
+        {
+          "criterion": "Inference",
+          "levels": {
+            "4": "Inference is accurate and evidence-rich.",
+            "3": "Inference is accurate with limited evidence.",
+            "2": "Inference partially accurate.",
+            "1": "Inference inaccurate or unsupported."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Have students troubleshoot each other before teacher intervention.",
+      "Capture common wiring errors for whole-class debrief."
+    ],
+    "type": "Lab"
+  },
+  {
+    "id": "lab-7432-or-discovery",
+    "unitId": "unit-2",
+    "title": "7432 Unknown Chip Discovery (OR)",
+    "purpose": "Identify OR behavior through systematic truth table testing.",
+    "discoveryFocus": "Disjunction behavior under all input combinations.",
+    "whatStudentsDiscover": "Output goes high when either or both inputs are high, indicating OR logic.",
+    "priorKnowledge": [
+      "Two-input truth table testing",
+      "7408 lab findings"
+    ],
+    "prerequisiteLabIds": ["lab-7408-and-discovery"],
+    "chipsNeeded": ["7432"],
+    "complexity": "Intermediate",
+    "steps": [
+      "Assemble unknown two-input test setup.",
+      "Run all four input cases and record outputs.",
+      "Cross-check with partner group for consistency.",
+      "Infer logic family and justify claim.",
+      "Prepare comparison note against prior AND lab."
+    ],
+    "deliverables": [
+      "Truth table",
+      "Comparison notes",
+      "Claim justification"
+    ],
+    "truthTables": [
+      {
+        "title": "Unknown Two-Input Gate B",
+        "columns": ["Input A", "Input B", "Observed Output Q"],
+        "rows": [
+          ["0", "0", "_"],
+          ["0", "1", "_"],
+          ["1", "0", "_"],
+          ["1", "1", "_"]
+        ]
+      }
+    ],
+    "rubric": {
+      "title": "OR Discovery Rubric",
+      "rows": [
+        {
+          "criterion": "Comparative Reasoning",
+          "levels": {
+            "4": "Clearly compares OR behavior to prior gate patterns with evidence.",
+            "3": "Comparison is mostly accurate.",
+            "2": "Comparison is limited.",
+            "1": "No meaningful comparison."
+          }
+        },
+        {
+          "criterion": "Data Accuracy",
+          "levels": {
+            "4": "Data is fully accurate and verified.",
+            "3": "Data is mostly accurate.",
+            "2": "Data includes inconsistencies.",
+            "1": "Data is unreliable."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Use this lab to reinforce importance of test order and clear notation.",
+      "Prompt students to articulate why one row differentiates OR from AND."
+    ],
+    "type": "Lab"
+  },
+  {
+    "id": "lab-logic-gate-report",
+    "unitId": "unit-2",
+    "title": "Logic Gate Lab Report Assignment",
+    "purpose": "Synthesize discovery findings into a formal technical lab report.",
+    "discoveryFocus": "Evidence-based scientific communication.",
+    "whatStudentsDiscover": "How strong writing links procedure, data, and claims for technical audiences.",
+    "priorKnowledge": [
+      "Completed 7404, 7408, and 7432 discovery tables",
+      "Claim-evidence-reasoning structure"
+    ],
+    "prerequisiteLabIds": ["lab-7404-not-discovery", "lab-7408-and-discovery", "lab-7432-or-discovery"],
+    "chipsNeeded": ["7404", "7408", "7432"],
+    "complexity": "Advanced",
+    "steps": [
+      "Compile validated truth tables from each discovery lab.",
+      "Draft methodology and controls section.",
+      "Write findings with one figure per gate family.",
+      "Develop conclusion and error analysis.",
+      "Submit final report and participate in oral checkpoint."
+    ],
+    "deliverables": [
+      "Formal lab report",
+      "Embedded truth tables",
+      "Error analysis paragraph",
+      "Oral response"
+    ],
+    "truthTables": [
+      {
+        "title": "Report Template - NOT",
+        "columns": ["A", "Q"],
+        "rows": [
+          ["0", "1"],
+          ["1", "0"]
+        ]
+      },
+      {
+        "title": "Report Template - AND/OR",
+        "columns": ["A", "B", "Q"],
+        "rows": [
+          ["0", "0", "_"],
+          ["0", "1", "_"],
+          ["1", "0", "_"],
+          ["1", "1", "_"]
+        ]
+      }
+    ],
+    "rubric": {
+      "title": "Logic Gate Lab Report Rubric",
+      "rows": [
+        {
+          "criterion": "Technical Structure",
+          "levels": {
+            "4": "Report is complete, well-organized, and professional.",
+            "3": "Report is mostly complete and organized.",
+            "2": "Report has structural gaps.",
+            "1": "Report is incomplete."
+          }
+        },
+        {
+          "criterion": "Data and Evidence",
+          "levels": {
+            "4": "Data is complete, accurate, and integrated into argument.",
+            "3": "Data is mostly accurate and referenced.",
+            "2": "Data is partial or weakly integrated.",
+            "1": "Data is missing or misused."
+          }
+        },
+        {
+          "criterion": "Reasoning",
+          "levels": {
+            "4": "Conclusions are precise with nuanced error analysis.",
+            "3": "Conclusions are supported with basic error analysis.",
+            "2": "Conclusions partially supported.",
+            "1": "Conclusions unsupported."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Use a single-point feedback pass before final grading.",
+      "Require students to include at least one revised section from feedback."
+    ],
+    "type": "Assessment"
+  },
+  {
+    "id": "lab-7400-nand-discovery",
+    "unitId": "unit-3",
+    "title": "7400 Unknown Chip Discovery (NAND)",
+    "purpose": "Determine NAND logic behavior and compare with AND gate outcomes.",
+    "discoveryFocus": "Universal gate potential through NAND.",
+    "whatStudentsDiscover": "NAND behaves as inverse AND and can form other logical operations.",
+    "priorKnowledge": [
+      "AND and OR truth tables",
+      "Lab report evidence standards"
+    ],
+    "prerequisiteLabIds": ["lab-logic-gate-report"],
+    "chipsNeeded": ["7400"],
+    "complexity": "Intermediate",
+    "steps": [
+      "Build two-input test circuit for unknown chip.",
+      "Record outputs for all input combinations.",
+      "Compare findings to prior AND truth table.",
+      "Generate hypothesis for universal behavior.",
+      "Share findings in a quick stand-up."
+    ],
+    "deliverables": [
+      "NAND truth table",
+      "Comparison notes",
+      "Universal hypothesis"
+    ],
+    "truthTables": [
+      {
+        "title": "Unknown Two-Input Gate C",
+        "columns": ["Input A", "Input B", "Observed Output Q"],
+        "rows": [
+          ["0", "0", "_"],
+          ["0", "1", "_"],
+          ["1", "0", "_"],
+          ["1", "1", "_"]
+        ]
+      }
+    ],
+    "rubric": {
+      "title": "NAND Discovery Rubric",
+      "rows": [
+        {
+          "criterion": "Comparative Analysis",
+          "levels": {
+            "4": "Comparison to AND is accurate and insightful.",
+            "3": "Comparison is accurate.",
+            "2": "Comparison has minor errors.",
+            "1": "Comparison is missing or incorrect."
+          }
+        },
+        {
+          "criterion": "Hypothesis Quality",
+          "levels": {
+            "4": "Hypothesis is clear, testable, and evidence-based.",
+            "3": "Hypothesis is testable with some evidence.",
+            "2": "Hypothesis is vague or weakly supported.",
+            "1": "Hypothesis is missing."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Emphasize why NAND is practical in constrained component inventories.",
+      "Use this lab to preview universal gate challenge criteria."
+    ],
+    "type": "Lab"
+  },
+  {
+    "id": "lab-7402-nor-discovery",
+    "unitId": "unit-3",
+    "title": "7402 Unknown Chip Discovery (NOR)",
+    "purpose": "Investigate NOR behavior and compare with OR outcomes.",
+    "discoveryFocus": "Universal gate potential through NOR.",
+    "whatStudentsDiscover": "NOR behaves as inverse OR and can also be used as a universal foundation.",
+    "priorKnowledge": [
+      "OR gate behavior",
+      "NAND discovery insights"
+    ],
+    "prerequisiteLabIds": ["lab-7400-nand-discovery"],
+    "chipsNeeded": ["7402"],
+    "complexity": "Intermediate",
+    "steps": [
+      "Assemble unknown chip test circuit.",
+      "Execute full two-input test matrix.",
+      "Compare findings with OR and NAND data sets.",
+      "Record evidence for universal gate argument.",
+      "Submit quick notebook claim."
+    ],
+    "deliverables": [
+      "NOR truth table",
+      "Comparison matrix",
+      "Notebook claim"
+    ],
+    "truthTables": [
+      {
+        "title": "Unknown Two-Input Gate D",
+        "columns": ["Input A", "Input B", "Observed Output Q"],
+        "rows": [
+          ["0", "0", "_"],
+          ["0", "1", "_"],
+          ["1", "0", "_"],
+          ["1", "1", "_"]
+        ]
+      }
+    ],
+    "rubric": {
+      "title": "NOR Discovery Rubric",
+      "rows": [
+        {
+          "criterion": "Evidence Collection",
+          "levels": {
+            "4": "Data and comparison notes are complete and accurate.",
+            "3": "Data is complete with minor gaps.",
+            "2": "Data has notable gaps.",
+            "1": "Data is incomplete."
+          }
+        },
+        {
+          "criterion": "Universal Gate Argument",
+          "levels": {
+            "4": "Argument is coherent, evidence-rich, and technically sound.",
+            "3": "Argument is clear with basic evidence.",
+            "2": "Argument is partial.",
+            "1": "Argument is missing or unsupported."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Pair this lab with mini whiteboard comparisons for rapid feedback.",
+      "Push students to reference exact truth table rows in arguments."
+    ],
+    "type": "Lab"
+  },
+  {
+    "id": "lab-7486-equality-investigation",
+    "unitId": "unit-3",
+    "title": "7486 Equality Investigation (XOR to XNOR Reasoning)",
+    "purpose": "Use observed XOR behavior to reason about equality and complement logic outcomes.",
+    "discoveryFocus": "When inputs match vs differ and how that maps to XOR/XNOR interpretations.",
+    "whatStudentsDiscover": "XOR outputs high when inputs differ; complementing this supports XNOR/equality logic reasoning.",
+    "priorKnowledge": [
+      "NAND and NOR discovery methods",
+      "Two-input truth table fluency"
+    ],
+    "prerequisiteLabIds": ["lab-7402-nor-discovery"],
+    "chipsNeeded": ["7486", "7404"],
+    "complexity": "Advanced",
+    "steps": [
+      "Build and test 7486 gate using full input matrix.",
+      "Interpret output pattern in terms of equal vs unequal inputs.",
+      "Add inverter stage and compare transformed output behavior.",
+      "Document XOR and inferred XNOR tables.",
+      "Prepare short explanation for comparator use case."
+    ],
+    "deliverables": [
+      "XOR truth table",
+      "Inferred XNOR/equality table",
+      "Comparator use-case explanation"
+    ],
+    "truthTables": [
+      {
+        "title": "7486 Observation Table",
+        "columns": ["Input A", "Input B", "XOR Output"],
+        "rows": [
+          ["0", "0", "_"],
+          ["0", "1", "_"],
+          ["1", "0", "_"],
+          ["1", "1", "_"]
+        ]
+      },
+      {
+        "title": "Inferred Equality (XNOR) Table",
+        "columns": ["Input A", "Input B", "Equality Output"],
+        "rows": [
+          ["0", "0", "_"],
+          ["0", "1", "_"],
+          ["1", "0", "_"],
+          ["1", "1", "_"]
+        ]
+      }
+    ],
+    "rubric": {
+      "title": "Equality Investigation Rubric",
+      "rows": [
+        {
+          "criterion": "Pattern Interpretation",
+          "levels": {
+            "4": "Interprets XOR and equality patterns accurately with strong justification.",
+            "3": "Interprets patterns accurately.",
+            "2": "Interpretation has minor errors.",
+            "1": "Interpretation is inaccurate."
+          }
+        },
+        {
+          "criterion": "Transfer to Application",
+          "levels": {
+            "4": "Connects findings to comparator applications with precision.",
+            "3": "Makes a clear application connection.",
+            "2": "Application link is partial.",
+            "1": "Application link is missing."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Use color-coded LEDs to help students track output changes.",
+      "Discuss naming differences between XOR behavior and inferred XNOR output."
+    ],
+    "type": "Lab"
+  },
+  {
+    "id": "lab-universal-gate-challenge",
+    "unitId": "unit-3",
+    "title": "Universal Gate Challenge Build",
+    "purpose": "Design and build a constrained logic solution using only one gate family and defend the choices.",
+    "discoveryFocus": "Practical application of logic equivalence and design trade-offs.",
+    "whatStudentsDiscover": "Multiple valid implementations can satisfy the same logic requirement under different constraints.",
+    "priorKnowledge": [
+      "NAND, NOR, XOR/XNOR findings",
+      "Circuit planning and troubleshooting routines"
+    ],
+    "prerequisiteLabIds": ["lab-7486-equality-investigation"],
+    "chipsNeeded": ["7400", "7402", "7486", "7404"],
+    "complexity": "Advanced",
+    "steps": [
+      "Select challenge brief and identify required logic behavior.",
+      "Draft logic diagram constrained to one universal gate family.",
+      "Build and test prototype on breadboard.",
+      "Document revisions and troubleshooting actions.",
+      "Deliver oral defense using rubric criteria."
+    ],
+    "deliverables": [
+      "Working physical build",
+      "Annotated logic diagram",
+      "Troubleshooting log",
+      "Oral defense response"
+    ],
+    "truthTables": [
+      {
+        "title": "Challenge Validation Table",
+        "columns": ["Input A", "Input B", "Target Output", "Observed Output"],
+        "rows": [
+          ["0", "0", "_", "_"],
+          ["0", "1", "_", "_"],
+          ["1", "0", "_", "_"],
+          ["1", "1", "_", "_"]
+        ]
+      }
+    ],
+    "rubric": {
+      "title": "Universal Gate Challenge Rubric",
+      "rows": [
+        {
+          "criterion": "Functional Performance",
+          "levels": {
+            "4": "Build meets all functional targets consistently.",
+            "3": "Build meets most targets with minor issues.",
+            "2": "Build meets some targets inconsistently.",
+            "1": "Build does not meet required targets."
+          }
+        },
+        {
+          "criterion": "Design Justification",
+          "levels": {
+            "4": "Defense explains logic choices and trade-offs with strong evidence.",
+            "3": "Defense explains choices with adequate evidence.",
+            "2": "Defense partially explains choices.",
+            "1": "Defense lacks clear justification."
+          }
+        },
+        {
+          "criterion": "Documentation",
+          "levels": {
+            "4": "Diagram and log are clear, complete, and revision-aware.",
+            "3": "Documentation is complete with minor gaps.",
+            "2": "Documentation is partial.",
+            "1": "Documentation is minimal or missing."
+          }
+        }
+      ]
+    },
+    "teacherNotes": [
+      "Use checkpoint deadlines to prevent last-day build rush.",
+      "Require every student to answer at least one defense question individually."
+    ],
+    "type": "Lab"
+  }
+]

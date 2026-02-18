@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 152 43% 7%;
+  --foreground: 146 58% 88%;
+  --card: 152 33% 11%;
+  --card-foreground: 146 58% 88%;
+  --primary: 142 71% 45%;
+  --primary-foreground: 145 100% 7%;
+  --secondary: 152 28% 16%;
+  --secondary-foreground: 146 60% 88%;
+  --muted: 152 23% 14%;
+  --muted-foreground: 145 28% 72%;
+  --accent: 152 36% 20%;
+  --accent-foreground: 146 70% 90%;
+  --destructive: 0 72.2% 50.6%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 150 28% 28%;
+  --input: 150 28% 28%;
+  --ring: 142 70% 48%;
+  --radius: 0.55rem;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(180deg, #020604 0%, #04110a 100%);
+  color: hsl(var(--foreground));
+}
+
+main {
+  padding-block: 1.25rem 2rem;
+}
+
+/* Dark-first green accessibility overrides for existing utility-heavy pages. */
+.bg-white {
+  background-color: #0d1b13 !important;
+}
+
+.bg-slate-50 {
+  background-color: #11221a !important;
+}
+
+.bg-slate-100 {
+  background-color: #173325 !important;
+}
+
+.bg-slate-900 {
+  background-color: #14532d !important;
+}
+
+.border-slate-200,
+.border-slate-300 {
+  border-color: #2b5a44 !important;
+}
+
+.text-white {
+  color: #f4fff8 !important;
+}
+
+.text-slate-900 {
+  color: #e6fff0 !important;
+}
+
+.text-slate-800 {
+  color: #d8ffe8 !important;
+}
+
+.text-slate-700 {
+  color: #c2f7d7 !important;
+}
+
+.text-slate-600 {
+  color: #9cdcb8 !important;
+}
+
+.text-slate-500 {
+  color: #7dc79d !important;
+}
+
+.text-slate-400 {
+  color: #68a883 !important;
+}
+
+.bg-emerald-100,
+.bg-blue-100,
+.bg-amber-100,
+.bg-rose-100 {
+  background-color: #174631 !important;
+}
+
+.text-emerald-800,
+.text-blue-800,
+.text-amber-800,
+.text-rose-800 {
+  color: #bcf8d4 !important;
+}
+
+@media print {
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  details {
+    break-inside: avoid;
+    border: 1px solid #d1d5db !important;
+  }
+
+  .print-break {
+    break-before: page;
+  }
+
+  table,
+  .rounded-lg {
+    break-inside: avoid;
+  }
+
+  .bg-white,
+  .bg-slate-50,
+  .bg-slate-100,
+  .bg-slate-900,
+  .bg-emerald-100,
+  .bg-blue-100,
+  .bg-amber-100,
+  .bg-rose-100 {
+    background: #fff !important;
+  }
+
+  .text-white,
+  .text-slate-900,
+  .text-slate-800,
+  .text-slate-700,
+  .text-slate-600,
+  .text-slate-500,
+  .text-slate-400,
+  .text-emerald-800,
+  .text-blue-800,
+  .text-amber-800,
+  .text-rose-800 {
+    color: #000 !important;
+  }
+
+  .border-slate-200,
+  .border-slate-300 {
+    border-color: #d1d5db !important;
+  }
+}

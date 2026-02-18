@@ -1,0 +1,668 @@
+[
+  {
+    "id": "pre-unit-0",
+    "unitNumber": 0,
+    "title": "Pre-Unit 0: Course Launch, Safety, and Electronics Identity",
+    "timeFrame": "Week 1",
+    "keyPerformanceTask": "Complete employability profile, inventory kit, and correctly identify IC pin orientation on assigned chips.",
+    "chipsUsed": ["555", "7408", "7404", "7486"],
+    "labIds": ["lab-kit-inventory", "lab-ic-pin-identification"],
+    "standardsTags": ["ETA-DE-1", "CDOS-3a", "NOCTI-PE.1", "NGLS-RST.11-12.3"],
+    "assessmentTypes": ["worksheet", "oral defense"],
+    "keyVocabulary": ["integrated circuit", "notch", "pin 1", "datasheet", "employability profile"],
+    "majorLabId": "lab-kit-inventory",
+    "establishedGoals": [
+      "Establish classroom routines for safe tool handling and accountable collaboration.",
+      "Introduce CTE career pathways and student employability habits.",
+      "Prepare every student to manage and identify electronic kit components independently."
+    ],
+    "contentKnowledge": [
+      "IC packaging basics (DIP format, notch, pin numbering convention).",
+      "Course policies, lab norms, and notebook structure.",
+      "Overview of digital electronics pathways in NYC CTE and regional industries."
+    ],
+    "skillsProcess": [
+      "SWBAT inventory and organize an electronics kit using a checklist.",
+      "SWBAT identify pin 1 and count pins clockwise/counterclockwise as appropriate for DIP chips.",
+      "SWBAT justify safe handling procedures during an oral share-out."
+    ],
+    "essentialQuestions": [
+      "How do engineers maintain precision and accountability in a lab environment?",
+      "Why does orientation and component identification matter before powering a circuit?"
+    ],
+    "enduringUnderstandings": [
+      "Systematic setup and documentation reduce design failure later.",
+      "Professional communication and tool stewardship are core technical skills."
+    ],
+    "realWorldApplications": [
+      "Technician onboarding and equipment handoff protocols in production labs.",
+      "Quality assurance checks before board-level assembly."
+    ],
+    "culturallyRelevantConnections": [
+      "Students connect class employability indicators to community-facing technology jobs in NYC transit, healthcare, and media.",
+      "Students map multilingual communication strengths to engineering team roles."
+    ],
+    "standardsAlignment": {
+      "ngls": ["NGLS-RST.11-12.3"],
+      "cdos": ["CDOS-3a"],
+      "eta": ["ETA-DE-1"],
+      "nocti": ["NOCTI-PE.1"],
+      "labAlignmentExplanation": "Inventory and pin-ID labs require procedural reading, technical vocabulary, and safe tool use aligned to foundational ETA and employability standards."
+    },
+    "materialsAndTools": [
+      "Student electronics kits",
+      "Printed inventory sheet",
+      "IC pin-ID station cards",
+      "Notebook setup template",
+      "Career pathways profile handout"
+    ],
+    "learningActivities": {
+      "engage": [
+        "Gallery walk: digital electronics in NYC infrastructure.",
+        "Mini scenario: diagnose what happens when a chip is inserted backward."
+      ],
+      "explore": [
+        "Kit inventory relay with peer verification.",
+        "Pin-ID practice using real chips and enlarged diagrams."
+      ],
+      "formalize": [
+        "Teacher models standard notebook entry and citation of datasheet evidence.",
+        "Class co-creates safety and communication norms."
+      ],
+      "apply": [
+        "Students complete a timed station check on pin identification.",
+        "Teams create a one-page kit management protocol."
+      ],
+      "reflect": [
+        "Notebook reflection on employability strengths and growth area.",
+        "Quick oral defense: explain one safety routine and why it matters."
+      ]
+    },
+    "commonScaffolds": [
+      "Color-coded pin maps",
+      "Sentence frames for oral defense",
+      "Chunked inventory checklist"
+    ],
+    "universalDesignStrategies": [
+      "Multiple means of representation through diagrams, physical chips, and verbal modeling.",
+      "Choice board for reflection format (written paragraph, annotated sketch, audio note).",
+      "Frequent checks for understanding with immediate feedback."
+    ],
+    "differentiation": [
+      "Advanced students lead peer verification rounds.",
+      "Students needing support use enlarged pin maps and partner coaching.",
+      "Multilingual glossary for key lab terms."
+    ],
+    "mtssSupports": {
+      "tier1": [
+        "Whole-class notebook templates and posted routines.",
+        "Daily formative checks with reteach moments."
+      ],
+      "tier2": [
+        "Small-group reteach on pin numbering with manipulatives.",
+        "Additional guided practice station during advisory period."
+      ],
+      "tier3": [
+        "1:1 check-in and individualized toolkit organization plan.",
+        "Family communication and support goals for material management."
+      ]
+    },
+    "formativeAssessmentMethods": [
+      "Kit checklist completion",
+      "Pin-ID exit ticket",
+      "Notebook setup review",
+      "Oral safety explanation"
+    ],
+    "summativeTask": {
+      "title": "Launch Readiness Demonstration",
+      "description": "Students demonstrate readiness to begin live circuit work through an inventory audit and verbal protocol defense.",
+      "deliverables": [
+        "Completed inventory form",
+        "Notebook setup snapshot",
+        "90-second oral defense"
+      ],
+      "successCriteria": [
+        "All required kit components logged correctly",
+        "Pin orientation identified accurately on 4/4 samples",
+        "Safety rationale communicated with evidence"
+      ]
+    },
+    "rubric": {
+      "title": "Launch Readiness Rubric",
+      "rows": [
+        {
+          "criterion": "Accuracy of Inventory",
+          "levels": {
+            "4": "All components logged accurately with notes on condition.",
+            "3": "Most components logged accurately; minor omissions.",
+            "2": "Several errors or missing entries.",
+            "1": "Inventory incomplete or inaccurate."
+          }
+        },
+        {
+          "criterion": "IC Identification",
+          "levels": {
+            "4": "Consistently identifies pin 1 and direction with clear explanation.",
+            "3": "Identifies orientation correctly with minor hesitation.",
+            "2": "Partially accurate orientation identification.",
+            "1": "Unable to identify orientation reliably."
+          }
+        },
+        {
+          "criterion": "Professional Communication",
+          "levels": {
+            "4": "Explanation is precise, evidence-based, and professional.",
+            "3": "Explanation is clear with at least one supporting detail.",
+            "2": "Explanation is basic and lacks support.",
+            "1": "Explanation is unclear or missing."
+          }
+        }
+      ]
+    },
+    "teacherImplementationNotes": [
+      "Set up inventory bins before class to reduce transition time.",
+      "Model how to handle uncertainty by checking datasheets instead of guessing.",
+      "Collect baseline communication notes for future oral defense growth tracking."
+    ]
+  },
+  {
+    "id": "unit-1",
+    "unitNumber": 1,
+    "title": "Unit 1: Binary Foundations and Digital Waveforms",
+    "timeFrame": "Weeks 2-4",
+    "keyPerformanceTask": "Analyze and annotate digital waveform scenarios and explain transitions using binary logic language.",
+    "chipsUsed": ["555", "7404"],
+    "labIds": ["lab-digital-waveforms", "lab-clock-signal-observation"],
+    "standardsTags": ["ETA-DE-2", "CDOS-1.1", "NOCTI-PE.3", "NGLS-HSN.Q.A.1", "NGLS-RST.11-12.7"],
+    "assessmentTypes": ["worksheet", "lab report", "exam"],
+    "keyVocabulary": ["binary", "bit", "clock signal", "high", "low", "duty cycle"],
+    "majorLabId": "lab-digital-waveforms",
+    "establishedGoals": [
+      "Develop fluency with binary representation and state changes over time.",
+      "Build confidence interpreting waveform diagrams as evidence.",
+      "Connect timing concepts to circuit behavior."
+    ],
+    "contentKnowledge": [
+      "Base-2 number system and place value.",
+      "Digital signal levels and transitions.",
+      "Clock timing concepts and periodic behavior."
+    ],
+    "skillsProcess": [
+      "SWBAT convert between decimal and binary for values used in class tasks.",
+      "SWBAT read and annotate waveform diagrams for timing and logic state changes.",
+      "SWBAT explain circuit timing behavior using precise technical vocabulary."
+    ],
+    "essentialQuestions": [
+      "How does binary abstraction help engineers reason about complex systems?",
+      "What can a waveform tell us that static truth tables cannot?"
+    ],
+    "enduringUnderstandings": [
+      "Digital systems depend on predictable state transitions.",
+      "Evidence from waveforms supports design decisions and troubleshooting."
+    ],
+    "realWorldApplications": [
+      "Timing analysis in communication protocols.",
+      "Clocked control systems in manufacturing and robotics."
+    ],
+    "culturallyRelevantConnections": [
+      "Students analyze timing from familiar technologies such as music production tools and transit displays.",
+      "Examples include digital signaling in community safety alerts and public information systems."
+    ],
+    "standardsAlignment": {
+      "ngls": ["NGLS-HSN.Q.A.1", "NGLS-RST.11-12.7"],
+      "cdos": ["CDOS-1.1"],
+      "eta": ["ETA-DE-2"],
+      "nocti": ["NOCTI-PE.3"],
+      "labAlignmentExplanation": "Waveform interpretation labs require quantitative reasoning, data representation, and communication of technical evidence, aligning to ETA and NGLS literacy expectations."
+    },
+    "materialsAndTools": [
+      "Breadboard and jumper kit",
+      "555 timer demonstration board",
+      "Waveform worksheet packets",
+      "Graph paper",
+      "Logic probe or simulator"
+    ],
+    "learningActivities": {
+      "engage": [
+        "Hook: decode a binary message hidden in classroom lights.",
+        "Quick poll on where students encounter digital timing in daily life."
+      ],
+      "explore": [
+        "Binary conversion stations with peer coaching.",
+        "Hands-on observation of periodic output from 555 timer setup."
+      ],
+      "formalize": [
+        "Explicit notes on waveform conventions (axes, transitions, pulse width).",
+        "Vocabulary mini-lesson tied to student-generated examples."
+      ],
+      "apply": [
+        "Digital waveforms worksheet and short partner check.",
+        "Scenario challenge: identify timing fault from a waveform trace."
+      ],
+      "reflect": [
+        "Notebook reflection: where waveform evidence changed your prediction.",
+        "Gallery share of annotated traces with feedback protocol."
+      ]
+    },
+    "commonScaffolds": [
+      "Conversion anchor chart",
+      "Annotated sample waveform",
+      "Sentence stems for claim-evidence-reasoning"
+    ],
+    "universalDesignStrategies": [
+      "Multiple modalities: visual traces, tactile timers, oral explanations.",
+      "Checkpoint questions embedded in worksheet sections.",
+      "Options to submit annotated paper or digital waveform screenshots."
+    ],
+    "differentiation": [
+      "Extension set includes multi-bit timing relationships.",
+      "Small-group reteach for binary place value.",
+      "Language supports for transition words and compare/contrast structures."
+    ],
+    "mtssSupports": {
+      "tier1": [
+        "Consistent notebook routine with exemplars.",
+        "Frequent retrieval practice on binary conversions."
+      ],
+      "tier2": [
+        "Targeted small-group waveform annotation support.",
+        "Additional guided worksheets with reduced cognitive load."
+      ],
+      "tier3": [
+        "Individualized checklists and timed conferencing.",
+        "Alternative response formats with verbal recording."
+      ]
+    },
+    "formativeAssessmentMethods": [
+      "Binary quick checks",
+      "Waveform annotation checks",
+      "Notebook spot checks",
+      "Mini whiteboard reasoning rounds"
+    ],
+    "summativeTask": {
+      "title": "Waveform Analysis Performance Check",
+      "description": "Students interpret an unfamiliar digital timing trace and justify conclusions about state behavior.",
+      "deliverables": [
+        "Annotated waveform",
+        "Short written explanation",
+        "Partner oral explanation"
+      ],
+      "successCriteria": [
+        "Accurate state interpretation across the full timeline",
+        "Correct use of binary and timing vocabulary",
+        "Evidence-based explanation of transitions"
+      ]
+    },
+    "rubric": {
+      "title": "Waveform Analysis Rubric",
+      "rows": [
+        {
+          "criterion": "Interpretation Accuracy",
+          "levels": {
+            "4": "Interprets all intervals accurately and identifies subtle timing behavior.",
+            "3": "Interprets most intervals accurately with minor errors.",
+            "2": "Partially accurate interpretation; key errors remain.",
+            "1": "Interpretation is mostly incorrect or incomplete."
+          }
+        },
+        {
+          "criterion": "Use of Evidence",
+          "levels": {
+            "4": "Consistently cites precise waveform evidence.",
+            "3": "Uses evidence for most claims.",
+            "2": "Evidence is limited or loosely connected.",
+            "1": "Little or no evidence used."
+          }
+        },
+        {
+          "criterion": "Technical Communication",
+          "levels": {
+            "4": "Clear, concise, and technically precise language.",
+            "3": "Generally clear language with minor vocabulary issues.",
+            "2": "Communication is uneven or imprecise.",
+            "1": "Communication does not demonstrate understanding."
+          }
+        }
+      ]
+    },
+    "teacherImplementationNotes": [
+      "Use real timing artifacts from prior student builds to increase authenticity.",
+      "Keep conversion warm-ups to under 7 minutes to preserve lab time.",
+      "Collect common misconceptions for targeted reteach before Unit 2 gates labs."
+    ]
+  },
+  {
+    "id": "unit-2",
+    "unitNumber": 2,
+    "title": "Unit 2: Discovery Labs - NOT, AND, OR",
+    "timeFrame": "Weeks 5-9",
+    "keyPerformanceTask": "Complete unknown-chip investigations for 7404, 7408, and 7432 and submit a formal logic gate lab report.",
+    "chipsUsed": ["7404", "7408", "7432"],
+    "labIds": ["lab-7404-not-discovery", "lab-7408-and-discovery", "lab-7432-or-discovery", "lab-logic-gate-report"],
+    "standardsTags": ["ETA-DE-3", "CDOS-2.1", "NOCTI-PE.5", "NGLS-HS-ETS1-2", "NGLS-RST.11-12.3"],
+    "assessmentTypes": ["lab report", "worksheet", "oral defense"],
+    "keyVocabulary": ["inverter", "conjunction", "disjunction", "truth table", "claim"],
+    "majorLabId": "lab-logic-gate-report",
+    "establishedGoals": [
+      "Use evidence from observation to infer gate behavior before naming it.",
+      "Construct truth tables from repeated tests and controlled inputs.",
+      "Strengthen written scientific communication through lab reports."
+    ],
+    "contentKnowledge": [
+      "Functional behavior of NOT, AND, and OR gates.",
+      "How gate symbols map to logical statements.",
+      "Methodology for controlled testing and repeatability."
+    ],
+    "skillsProcess": [
+      "SWBAT design and run fair tests for unknown digital chips.",
+      "SWBAT record and validate observations in complete truth tables.",
+      "SWBAT write a lab report that links data to a defensible claim."
+    ],
+    "essentialQuestions": [
+      "How do engineers infer system rules from observed behavior?",
+      "What counts as strong evidence in a digital electronics lab report?"
+    ],
+    "enduringUnderstandings": [
+      "Reliable conclusions come from systematic testing and documentation.",
+      "Logic gate behavior can be represented in multiple equivalent forms."
+    ],
+    "realWorldApplications": [
+      "Boolean decision logic in access control and sensor systems.",
+      "Verification workflows in hardware prototyping and QA."
+    ],
+    "culturallyRelevantConnections": [
+      "Students model community-based decision systems using logic statements.",
+      "Lab prompts invite examples from neighborhood infrastructure and school routines."
+    ],
+    "standardsAlignment": {
+      "ngls": ["NGLS-HS-ETS1-2", "NGLS-RST.11-12.3"],
+      "cdos": ["CDOS-2.1"],
+      "eta": ["ETA-DE-3"],
+      "nocti": ["NOCTI-PE.5"],
+      "labAlignmentExplanation": "Unknown-chip discovery and lab reporting align to engineering design evidence cycles and workforce communication expectations."
+    },
+    "materialsAndTools": [
+      "7404, 7408, 7432 chips",
+      "Breadboard and LED indicator setup",
+      "Switch input board",
+      "Truth table templates",
+      "Lab report template and exemplar"
+    ],
+    "learningActivities": {
+      "engage": [
+        "Mystery box intro: infer internal rule from input/output examples.",
+        "Discuss why naming too early can bias observation."
+      ],
+      "explore": [
+        "Three discovery labs with rotating team roles.",
+        "Students test unknown chips and collect repeated trials."
+      ],
+      "formalize": [
+        "Teacher synthesis on NOT/AND/OR symbolic and verbal representations.",
+        "Mini-lesson on high-quality lab report claims and evidence."
+      ],
+      "apply": [
+        "Students complete logic gate lab report with data tables.",
+        "Short oral defense conference on one selected claim."
+      ],
+      "reflect": [
+        "Notebook prompt: which trial changed your interpretation and why.",
+        "Team retrospective on role effectiveness and communication."
+      ]
+    },
+    "commonScaffolds": [
+      "Role cards (builder, recorder, skeptic)",
+      "Claim-evidence-reasoning organizer",
+      "Lab report sentence starters"
+    ],
+    "universalDesignStrategies": [
+      "Lab station visuals and audio instructions.",
+      "Chunked report submission deadlines.",
+      "Alternative oral explanation option before final writing."
+    ],
+    "differentiation": [
+      "Challenge extension adds multi-gate prediction tasks.",
+      "Guided templates for students requiring writing support.",
+      "Peer feedback rounds with structured checklist."
+    ],
+    "mtssSupports": {
+      "tier1": [
+        "Posted procedures and model data tables.",
+        "Frequent stop-and-jot checks during labs."
+      ],
+      "tier2": [
+        "Teacher-led table for troubleshooting circuit setup errors.",
+        "Additional scaffolded practice on claim writing."
+      ],
+      "tier3": [
+        "Individual conferencing and step-by-step investigation plan.",
+        "Reduced variable setup and repeated guided trials."
+      ]
+    },
+    "formativeAssessmentMethods": [
+      "Truth table checkpoints",
+      "Lab notebook checks",
+      "Oral claim conferences",
+      "Peer feedback forms"
+    ],
+    "summativeTask": {
+      "title": "Logic Gate Investigation Report",
+      "description": "Students submit a formal report documenting unknown gate investigations and defensible conclusions.",
+      "deliverables": [
+        "Completed truth tables",
+        "Written report",
+        "Annotated circuit photo",
+        "Oral defense response"
+      ],
+      "successCriteria": [
+        "Truth tables are complete and internally consistent",
+        "Claims match observed data",
+        "Report communicates procedure, findings, and reasoning clearly"
+      ]
+    },
+    "rubric": {
+      "title": "Logic Gate Report Rubric",
+      "rows": [
+        {
+          "criterion": "Experimental Procedure",
+          "levels": {
+            "4": "Procedure is clear, controlled, and replicable.",
+            "3": "Procedure is mostly clear with minor gaps.",
+            "2": "Procedure lacks control or key details.",
+            "1": "Procedure is unclear or not replicable."
+          }
+        },
+        {
+          "criterion": "Data Quality",
+          "levels": {
+            "4": "Data is complete, accurate, and validated through repeats.",
+            "3": "Data is mostly complete and accurate.",
+            "2": "Data has notable gaps or inconsistencies.",
+            "1": "Data is incomplete or unreliable."
+          }
+        },
+        {
+          "criterion": "Reasoning and Conclusion",
+          "levels": {
+            "4": "Conclusion is compelling and fully supported by data.",
+            "3": "Conclusion is supported by most data.",
+            "2": "Conclusion is partially supported.",
+            "1": "Conclusion is unsupported or incorrect."
+          }
+        }
+      ]
+    },
+    "teacherImplementationNotes": [
+      "Reserve one class for troubleshooting and make-up data collection.",
+      "Do not reveal chip names until teams submit first-round claims.",
+      "Use oral defense prompts to assess individual understanding within group work."
+    ]
+  },
+  {
+    "id": "unit-3",
+    "unitNumber": 3,
+    "title": "Unit 3: Discovery Labs - NAND, NOR, and Equality Logic",
+    "timeFrame": "Weeks 10-16",
+    "keyPerformanceTask": "Investigate 7400, 7402, and 7486 behavior, then build and defend a mini-circuit using universal gate reasoning.",
+    "chipsUsed": ["7400", "7402", "7486"],
+    "labIds": ["lab-7400-nand-discovery", "lab-7402-nor-discovery", "lab-7486-equality-investigation", "lab-universal-gate-challenge"],
+    "standardsTags": ["ETA-DE-4", "CDOS-2.1", "NOCTI-PE.5", "NGLS-HS-ETS1-3", "NGLS-RST.11-12.9"],
+    "assessmentTypes": ["lab report", "exam", "oral defense", "physical build"],
+    "keyVocabulary": ["NAND", "NOR", "XOR", "XNOR", "universal gate", "equivalence"],
+    "majorLabId": "lab-universal-gate-challenge",
+    "establishedGoals": [
+      "Extend discovery protocol to more complex logical behavior.",
+      "Investigate equality logic using 7486 and complementary reasoning.",
+      "Defend design choices for physical logic builds."
+    ],
+    "contentKnowledge": [
+      "Functional behavior of NAND and NOR as universal gates.",
+      "Relationship between XOR behavior and XNOR/equality logic outcomes.",
+      "Design trade-offs when implementing equivalent logic forms."
+    ],
+    "skillsProcess": [
+      "SWBAT infer gate identities from observed behavior and justify claims.",
+      "SWBAT construct equivalent logic using only NAND or only NOR when prompted.",
+      "SWBAT present and defend physical build decisions using evidence."
+    ],
+    "essentialQuestions": [
+      "What makes a gate universal, and why does that matter in design?",
+      "How can multiple valid circuit implementations represent the same logic?"
+    ],
+    "enduringUnderstandings": [
+      "Design flexibility increases when engineers understand equivalence.",
+      "Clear communication of trade-offs is essential for collaborative engineering."
+    ],
+    "realWorldApplications": [
+      "Fault-tolerant design and logic minimization in embedded systems.",
+      "Comparator and equality checks in authentication and control circuits."
+    ],
+    "culturallyRelevantConnections": [
+      "Students connect equality logic to fairness checks in automated systems.",
+      "Class discussions include responsible design impacts on different communities."
+    ],
+    "standardsAlignment": {
+      "ngls": ["NGLS-HS-ETS1-3", "NGLS-RST.11-12.9"],
+      "cdos": ["CDOS-2.1"],
+      "eta": ["ETA-DE-4"],
+      "nocti": ["NOCTI-PE.5"],
+      "labAlignmentExplanation": "Universal gate and equality investigations align to engineering optimization, comparative analysis, and technical argumentation standards."
+    },
+    "materialsAndTools": [
+      "7400, 7402, and 7486 chips",
+      "Breadboard kits and LEDs",
+      "Challenge design brief",
+      "Rubric checklist",
+      "Presentation timer cards"
+    ],
+    "learningActivities": {
+      "engage": [
+        "Prompt: can one gate type build every logic function?",
+        "Video snippet of logic in access-control systems."
+      ],
+      "explore": [
+        "Discovery labs for NAND, NOR, and 7486 equality behavior.",
+        "Teams compare observed data patterns across gate families."
+      ],
+      "formalize": [
+        "Explicit instruction on universal gate transformations.",
+        "Teacher-facilitated synthesis of XOR vs XNOR behavior."
+      ],
+      "apply": [
+        "Universal gate challenge build with constraints.",
+        "Oral defense and peer review protocol."
+      ],
+      "reflect": [
+        "Design retrospective on trade-offs and troubleshooting moves.",
+        "Notebook reflection on how evidence changed final design."
+      ]
+    },
+    "commonScaffolds": [
+      "Transformation cheat sheet",
+      "Circuit planning graphic organizer",
+      "Defense question bank"
+    ],
+    "universalDesignStrategies": [
+      "Flexible grouping and role rotation.",
+      "Visual and tactile circuit planning tools.",
+      "Multiple pathways for demonstrating mastery (build, oral, written)."
+    ],
+    "differentiation": [
+      "Advanced option includes multi-stage comparator design.",
+      "Scaffolded challenge version with partially completed diagrams.",
+      "Teacher-guided rehearsal for oral defense language."
+    ],
+    "mtssSupports": {
+      "tier1": [
+        "Routine progress monitoring and visible success criteria.",
+        "Frequent formative checks at each challenge milestone."
+      ],
+      "tier2": [
+        "Targeted small-group intervention on equivalence transformations.",
+        "Structured partner script for defense preparation."
+      ],
+      "tier3": [
+        "Individualized circuit planning conference.",
+        "Alternative pacing calendar with focused checkpoint goals."
+      ]
+    },
+    "formativeAssessmentMethods": [
+      "Gate discovery check-ins",
+      "Transformation exit tickets",
+      "Prototype reviews",
+      "Defense rehearsal feedback"
+    ],
+    "summativeTask": {
+      "title": "Universal Gate Build and Defense",
+      "description": "Students build a constrained logic solution and defend the design against rubric criteria.",
+      "deliverables": [
+        "Working breadboard build",
+        "Annotated logic diagram",
+        "Reflection paragraph",
+        "2-minute oral defense"
+      ],
+      "successCriteria": [
+        "Build satisfies design constraints",
+        "Logic equivalence is demonstrated accurately",
+        "Defense includes evidence-based reasoning and trade-off analysis"
+      ]
+    },
+    "rubric": {
+      "title": "Universal Gate Challenge Rubric",
+      "rows": [
+        {
+          "criterion": "Technical Accuracy",
+          "levels": {
+            "4": "Design is fully functional and logically sound.",
+            "3": "Design is mostly functional with minor issues.",
+            "2": "Design demonstrates partial functionality.",
+            "1": "Design does not meet functional requirements."
+          }
+        },
+        {
+          "criterion": "Design Reasoning",
+          "levels": {
+            "4": "Reasoning is nuanced with clear trade-off analysis.",
+            "3": "Reasoning is clear and mostly supported.",
+            "2": "Reasoning is basic with limited support.",
+            "1": "Reasoning is unclear or unsupported."
+          }
+        },
+        {
+          "criterion": "Communication and Reflection",
+          "levels": {
+            "4": "Defense and reflection are precise, organized, and evidence-rich.",
+            "3": "Defense and reflection are clear with relevant evidence.",
+            "2": "Communication shows partial clarity.",
+            "1": "Communication is limited or incomplete."
+          }
+        }
+      ]
+    },
+    "teacherImplementationNotes": [
+      "Pre-test all chips and keep backups to prevent hardware bottlenecks.",
+      "Use midpoint design reviews to catch misconceptions early.",
+      "Integrate exam preparation with challenge debrief to close the semester."
+    ]
+  }
+]

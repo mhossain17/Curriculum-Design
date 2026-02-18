@@ -1,0 +1,114 @@
+[
+  {
+    "framework": "ETA",
+    "code": "ETA-DE-1",
+    "description": "Demonstrate foundational lab safety, component identification, and procedural readiness in digital electronics settings.",
+    "alignedUnitIds": ["pre-unit-0"],
+    "alignedLabIds": ["lab-kit-inventory", "lab-ic-pin-identification"]
+  },
+  {
+    "framework": "ETA",
+    "code": "ETA-DE-2",
+    "description": "Interpret digital timing behavior using binary conventions and waveform representations.",
+    "alignedUnitIds": ["unit-1"],
+    "alignedLabIds": ["lab-digital-waveforms", "lab-clock-signal-observation"]
+  },
+  {
+    "framework": "ETA",
+    "code": "ETA-DE-3",
+    "description": "Apply experimental methods to identify and verify logic gate behavior.",
+    "alignedUnitIds": ["unit-2"],
+    "alignedLabIds": ["lab-7404-not-discovery", "lab-7408-and-discovery", "lab-7432-or-discovery", "lab-logic-gate-report"]
+  },
+  {
+    "framework": "ETA",
+    "code": "ETA-DE-4",
+    "description": "Design and communicate multi-gate logic solutions using equivalent representations.",
+    "alignedUnitIds": ["unit-3"],
+    "alignedLabIds": ["lab-7400-nand-discovery", "lab-7402-nor-discovery", "lab-7486-equality-investigation", "lab-universal-gate-challenge"]
+  },
+  {
+    "framework": "CDOS",
+    "code": "CDOS-1.1",
+    "description": "Use career and technical knowledge to solve authentic workplace problems.",
+    "alignedUnitIds": ["unit-1"],
+    "alignedLabIds": ["lab-digital-waveforms", "lab-clock-signal-observation"]
+  },
+  {
+    "framework": "CDOS",
+    "code": "CDOS-2.1",
+    "description": "Demonstrate integrated communication, problem-solving, and teamwork in technical settings.",
+    "alignedUnitIds": ["unit-2", "unit-3"],
+    "alignedLabIds": ["lab-logic-gate-report", "lab-universal-gate-challenge"]
+  },
+  {
+    "framework": "CDOS",
+    "code": "CDOS-3a",
+    "description": "Apply universal foundation skills such as responsibility, integrity, and dependability.",
+    "alignedUnitIds": ["pre-unit-0"],
+    "alignedLabIds": ["lab-kit-inventory", "lab-ic-pin-identification"]
+  },
+  {
+    "framework": "NOCTI",
+    "code": "NOCTI-PE.1",
+    "description": "Identify and apply safety rules and proper handling of electronic components.",
+    "alignedUnitIds": ["pre-unit-0"],
+    "alignedLabIds": ["lab-kit-inventory", "lab-ic-pin-identification"]
+  },
+  {
+    "framework": "NOCTI",
+    "code": "NOCTI-PE.3",
+    "description": "Interpret schematic and signal representations used in pre-engineering systems.",
+    "alignedUnitIds": ["unit-1"],
+    "alignedLabIds": ["lab-digital-waveforms", "lab-clock-signal-observation"]
+  },
+  {
+    "framework": "NOCTI",
+    "code": "NOCTI-PE.5",
+    "description": "Analyze digital logic systems, test circuits, and document findings.",
+    "alignedUnitIds": ["unit-2", "unit-3"],
+    "alignedLabIds": ["lab-7408-and-discovery", "lab-logic-gate-report", "lab-universal-gate-challenge"]
+  },
+  {
+    "framework": "NGLS",
+    "code": "NGLS-HSN.Q.A.1",
+    "description": "Use units and quantities to reason quantitatively and interpret data.",
+    "alignedUnitIds": ["unit-1"],
+    "alignedLabIds": ["lab-digital-waveforms", "lab-clock-signal-observation"]
+  },
+  {
+    "framework": "NGLS",
+    "code": "NGLS-HS-ETS1-2",
+    "description": "Design solutions to complex real-world problems by breaking them into manageable criteria and constraints.",
+    "alignedUnitIds": ["unit-2"],
+    "alignedLabIds": ["lab-logic-gate-report"]
+  },
+  {
+    "framework": "NGLS",
+    "code": "NGLS-HS-ETS1-3",
+    "description": "Evaluate and refine design solutions based on prioritized criteria and trade-offs.",
+    "alignedUnitIds": ["unit-3"],
+    "alignedLabIds": ["lab-universal-gate-challenge"]
+  },
+  {
+    "framework": "NGLS",
+    "code": "NGLS-RST.11-12.3",
+    "description": "Follow complex multistep procedures while carrying out technical tasks and evaluating outcomes.",
+    "alignedUnitIds": ["pre-unit-0", "unit-2"],
+    "alignedLabIds": ["lab-ic-pin-identification", "lab-logic-gate-report"]
+  },
+  {
+    "framework": "NGLS",
+    "code": "NGLS-RST.11-12.7",
+    "description": "Integrate and evaluate multiple sources of information presented in diverse formats.",
+    "alignedUnitIds": ["unit-1"],
+    "alignedLabIds": ["lab-digital-waveforms"]
+  },
+  {
+    "framework": "NGLS",
+    "code": "NGLS-RST.11-12.9",
+    "description": "Synthesize information from multiple technical sources to support analysis and design decisions.",
+    "alignedUnitIds": ["unit-3"],
+    "alignedLabIds": ["lab-7486-equality-investigation", "lab-universal-gate-challenge"]
+  }
+]

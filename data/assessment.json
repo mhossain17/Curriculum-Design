@@ -1,0 +1,77 @@
+{
+  "gradingWeights": [
+    {
+      "category": "Exam (1 per marking period)",
+      "percent": 20,
+      "description": "Cumulative technical understanding and transfer tasks."
+    },
+    {
+      "category": "Lab Reports (1 per unit)",
+      "percent": 25,
+      "description": "Formal technical writing with data evidence and analysis."
+    },
+    {
+      "category": "Worksheets (including waveforms)",
+      "percent": 10,
+      "description": "Practice and conceptual checks."
+    },
+    {
+      "category": "Engineering Notebooks",
+      "percent": 15,
+      "description": "Daily reflections, claims, and share-out preparation."
+    },
+    {
+      "category": "Physical Builds",
+      "percent": 20,
+      "description": "Functionality, troubleshooting, and iteration quality."
+    },
+    {
+      "category": "Oral Explanations/Defenses",
+      "percent": 10,
+      "description": "Technical communication and evidence-based reasoning."
+    }
+  ],
+  "overview": [
+    "One exam is given per marking period.",
+    "Each unit includes one major lab report submission.",
+    "Worksheets target foundational fluency and quick diagnostics.",
+    "Engineering notebooks are scored for consistency and depth.",
+    "Physical builds are evaluated against design constraints and test data.",
+    "Oral explanations occur during conferences and challenge defenses."
+  ],
+  "rubricTemplates": [
+    {
+      "id": "technical-lab-report",
+      "title": "Technical Lab Report Template",
+      "descriptors": [
+        "Question/claim clearly stated",
+        "Procedure replicable and controlled",
+        "Data tables complete and accurate",
+        "Analysis connects evidence to claim",
+        "Conclusion addresses limitations and next steps"
+      ]
+    },
+    {
+      "id": "physical-build",
+      "title": "Physical Build Template",
+      "descriptors": [
+        "Meets required logic behavior",
+        "Wiring is organized and safe",
+        "Troubleshooting log shows iteration",
+        "Design trade-offs explained",
+        "Final demonstration is reliable"
+      ]
+    },
+    {
+      "id": "oral-defense",
+      "title": "Oral Defense Template",
+      "descriptors": [
+        "Uses correct technical vocabulary",
+        "References evidence from data/build",
+        "Responds to follow-up questions",
+        "Explains design choices clearly",
+        "Reflects on revision decisions"
+      ]
+    }
+  ]
+}

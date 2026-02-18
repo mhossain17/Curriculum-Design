@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HS for CTEA DC Circuit Fundamentals semester curriculum guide for teachers and administrators."
+    />
+    <title>HS for CTEA — DC Circuit Fundamentals (Semester Curriculum Guide)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" id="top">
+      <div class="header-top wrap">
+        <div>
+          <p class="eyebrow">High School Career and Technical Education</p>
+          <h1>HS for CTEA — DC Circuit Fundamentals (Semester Curriculum Guide)</h1>
+          <p class="subtitle">Audience: Teachers and administrators</p>
+        </div>
+
+        <div class="header-tools" aria-label="Global tools">
+          <form id="header-search-form" class="inline-search" role="search" aria-label="Global search">
+            <label for="header-search-input" class="sr-only">Search curriculum</label>
+            <input
+              id="header-search-input"
+              type="search"
+              placeholder="Search units, labs, standards, materials..."
+              autocomplete="off"
+            />
+            <button type="submit">Search</button>
+          </form>
+          <button id="print-page-btn" type="button">Print Current Page</button>
+        </div>
+      </div>
+
+      <nav class="top-nav" aria-label="Top-level curriculum navigation">
+        <div class="wrap nav-row">
+          <button id="nav-overview" class="nav-btn is-active" data-page="overview" aria-current="page">Overview</button>
+          <button id="nav-pacing" class="nav-btn" data-page="pacing">Pacing</button>
+          <button id="nav-units" class="nav-btn" data-page="units">Units</button>
+          <button id="nav-labs" class="nav-btn" data-page="labs">Labs</button>
+          <button id="nav-standards" class="nav-btn" data-page="standards">Standards</button>
+          <button id="nav-materials" class="nav-btn" data-page="materials">Materials</button>
+          <button id="nav-assessments" class="nav-btn" data-page="assessments">Assessments</button>
+          <button id="nav-search" class="nav-btn" data-page="search">Search</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" class="wrap" tabindex="-1">
+      <p id="app-status" class="sr-only" aria-live="polite"></p>
+
+      <section id="page-overview" class="page-section" aria-labelledby="nav-overview">
+        <header class="section-head">
+          <h2>Overview</h2>
+          <p>Course summary, instructional model, SWBAT targets, and key routines.</p>
+        </header>
+        <div id="overview-content"></div>
+      </section>
+
+      <section id="page-pacing" class="page-section" aria-labelledby="nav-pacing" hidden>
+        <header class="section-head">
+          <h2>Pacing (Calendar / Weeks)</h2>
+          <p>Week-by-week semester pacing with filters and print-ready layout.</p>
+        </header>
+
+        <div class="toolbar" role="region" aria-label="Pacing filters">
+          <div class="field">
+            <label for="pacing-unit-filter">Filter by unit</label>
+            <select id="pacing-unit-filter"></select>
+          </div>
+          <div class="field">
+            <label for="pacing-labtype-filter">Filter by lab type</label>
+            <select id="pacing-labtype-filter"></select>
+          </div>
+          <div class="field">
+            <label for="pacing-standard-filter">Filter by standards set</label>
+            <select id="pacing-standard-filter"></select>
+          </div>
+          <div class="field field-button">
+            <button id="pacing-print-btn" type="button">Print View</button>
+          </div>
+        </div>
+
+        <div id="pacing-cards" class="cards-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="page-units" class="page-section" aria-labelledby="nav-units" hidden>
+        <header class="section-head">
+          <h2>Units</h2>
+          <p>Select a unit to view rationale, standards, assessments, and linked labs.</p>
+        </header>
+
+        <div id="units-breadcrumbs" class="breadcrumbs" aria-label="Units breadcrumbs"></div>
+
+        <div class="split-layout">
+          <aside class="panel panel-list" aria-label="Unit list">
+            <h3>Unit List</h3>
+            <ul id="unit-list" class="selector-list"></ul>
+          </aside>
+
+          <article id="unit-detail" class="panel panel-detail" tabindex="-1" aria-label="Unit details"></article>
+        </div>
+      </section>
+
+      <section id="page-labs" class="page-section" aria-labelledby="nav-labs" hidden>
+        <header class="section-head">
+          <h2>Labs</h2>
+          <p>Filter labs by type and concept, then open full procedures and rubric snippets.</p>
+        </header>
+
+        <div id="labs-breadcrumbs" class="breadcrumbs" aria-label="Labs breadcrumbs"></div>
+
+        <div class="toolbar" role="region" aria-label="Lab filters">
+          <div class="field">
+            <label for="lab-type-filter">Lab type</label>
+            <select id="lab-type-filter"></select>
+          </div>
+          <div class="field">
+            <label for="lab-concept-filter">Concept</label>
+            <select id="lab-concept-filter"></select>
+          </div>
+        </div>
+
+        <div class="split-layout labs-layout">
+          <aside class="panel panel-list" aria-label="Lab directory">
+            <h3>Lab Directory</h3>
+            <div id="lab-cards" class="stack-cards" aria-live="polite"></div>
+          </aside>
+
+          <article id="lab-detail" class="panel panel-detail" tabindex="-1" aria-label="Lab details"></article>
+        </div>
+      </section>
+
+      <section id="page-standards" class="page-section" aria-labelledby="nav-standards" hidden>
+        <header class="section-head">
+          <h2>Standards Alignment</h2>
+          <p>Browse standards sets and use the crosswalk to see where each standard appears.</p>
+        </header>
+
+        <div id="standards-browser"></div>
+        <div id="standards-filter-results" class="panel"></div>
+        <div id="standards-crosswalk" class="panel"></div>
+      </section>
+
+      <section id="page-materials" class="page-section" aria-labelledby="nav-materials" hidden>
+        <header class="section-head">
+          <h2>Materials</h2>
+          <p>Student kit and communal inventory with replacement risk and printable checklist.</p>
+        </header>
+
+        <div class="toolbar" role="region" aria-label="Materials tools">
+          <div class="field field-button">
+            <button id="materials-print-btn" type="button">Print Inventory Checklist</button>
+          </div>
+        </div>
+
+        <div id="materials-content"></div>
+      </section>
+
+      <section id="page-assessments" class="page-section" aria-labelledby="nav-assessments" hidden>
+        <header class="section-head">
+          <h2>Assessments</h2>
+          <p>Assessment structure, grading approach, rubrics, and feedback stems.</p>
+        </header>
+
+        <div id="assessments-content"></div>
+      </section>
+
+      <section id="page-search" class="page-section" aria-labelledby="nav-search" hidden>
+        <header class="section-head">
+          <h2>Global Search</h2>
+          <p>Search units, objectives, labs, materials, and standards text.</p>
+        </header>
+
+        <form id="search-form" class="search-panel" role="search" aria-label="Curriculum search form">
+          <label for="search-input">Search curriculum content</label>
+          <div class="search-row">
+            <input id="search-input" type="search" autocomplete="off" placeholder="Try: Ohm's Law, soldering, CDOS 3a-1..." />
+            <button type="submit">Run Search</button>
+          </div>
+        </form>
+
+        <div id="search-results" class="panel" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">Back to top</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>

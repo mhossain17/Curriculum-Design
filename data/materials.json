@@ -1,0 +1,101 @@
+{
+  "perStudentKit": [
+    {
+      "code": "08MAN72",
+      "name": "08MAN72 IC",
+      "quantityPerStudent": 3,
+      "notes": "Student-owned quantity"
+    },
+    {
+      "code": "7447",
+      "name": "7447 BCD to 7-segment decoder",
+      "quantityPerStudent": 3,
+      "notes": "Student-owned quantity"
+    },
+    {
+      "code": "7408",
+      "name": "7408 AND gate",
+      "quantityPerStudent": 4,
+      "notes": "Core discovery chip"
+    },
+    {
+      "code": "7400",
+      "name": "7400 NAND gate",
+      "quantityPerStudent": 4,
+      "notes": "Universal gate unit"
+    },
+    {
+      "code": "7432",
+      "name": "7432 OR gate",
+      "quantityPerStudent": 4,
+      "notes": "Core discovery chip"
+    },
+    {
+      "code": "7402",
+      "name": "7402 NOR gate",
+      "quantityPerStudent": 4,
+      "notes": "Universal gate unit"
+    },
+    {
+      "code": "7486",
+      "name": "7486 XOR gate",
+      "quantityPerStudent": 4,
+      "notes": "Equality investigation"
+    },
+    {
+      "code": "7404",
+      "name": "7404 NOT gate",
+      "quantityPerStudent": 4,
+      "notes": "Inverter and XNOR support"
+    },
+    {
+      "code": "74107",
+      "name": "74107 JK flip-flop",
+      "quantityPerStudent": 4,
+      "notes": "Extension and sequencing tasks"
+    },
+    {
+      "code": "555",
+      "name": "555 timer",
+      "quantityPerStudent": 4,
+      "notes": "Waveform and timing tasks"
+    }
+  ],
+  "classMaterials": [
+    {
+      "item": "Solderless breadboards",
+      "quantity": "1 per student + 5 extras",
+      "notes": "Keep extras for damaged boards"
+    },
+    {
+      "item": "Jumper wire kits",
+      "quantity": "1 set per student",
+      "notes": "Color assortment supports troubleshooting"
+    },
+    {
+      "item": "LED packs",
+      "quantity": "100 assorted",
+      "notes": "Red/green recommended for logic state clarity"
+    },
+    {
+      "item": "Resistor packs (220 ohm, 1k ohm)",
+      "quantity": "Class set",
+      "notes": "Restock by quarter"
+    },
+    {
+      "item": "Power supplies or battery packs",
+      "quantity": "1 per 2 students",
+      "notes": "Label with station numbers"
+    },
+    {
+      "item": "Storage bins and labels",
+      "quantity": "1 per student",
+      "notes": "Support accountability and fast setup"
+    }
+  ],
+  "printableNotes": [
+    "Order 10% spare ICs for failure and loss coverage.",
+    "Pre-sort kits by period to reduce launch time.",
+    "Keep replacement checkout log for accountability."
+  ]
+}

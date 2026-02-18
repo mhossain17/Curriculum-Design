@@ -1,0 +1,46 @@
+{
+  "id": "intro-digital-electronics",
+  "title": "Introduction to Digital Electronics",
+  "semester": "Spring 2026",
+  "semesterDates": "February 2, 2026 - June 19, 2026",
+  "meetingPattern": "8 periods/week, 45 minutes each",
+  "description": "Semester CTE course that develops digital logic fluency through discovery labs, notebook evidence, and design communication.",
+  "instructionalModel": [
+    "Investigative and discovery-first lessons before formal vocabulary instruction",
+    "Engineering notebooks used daily for claims, evidence, and reflections",
+    "Oral explanations and short defenses of physical circuit decisions",
+    "Frequent low-stakes checks followed by revision opportunities"
+  ],
+  "startHereCards": [
+    {
+      "title": "Units",
+      "description": "Scope, sequence, and key tasks for each unit.",
+      "href": "/units"
+    },
+    {
+      "title": "Pacing Calendar",
+      "description": "Week-by-week focus, lessons, and deliverables.",
+      "href": "/pacing"
+    },
+    {
+      "title": "Labs",
+      "description": "Discovery labs, worksheets, and student-facing directions.",
+      "href": "/labs"
+    },
+    {
+      "title": "Standards",
+      "description": "ETA, CDOS, NOCTI, and NGLS alignment.",
+      "href": "/standards"
+    },
+    {
+      "title": "Materials",
+      "description": "Per-student kits and class totals calculator.",
+      "href": "/materials"
+    },
+    {
+      "title": "Assessment",
+      "description": "Weights, rubrics, and semester assessment system.",
+      "href": "/assessment"
+    }
+  ]
+}

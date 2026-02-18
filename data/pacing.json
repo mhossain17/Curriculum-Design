@@ -1,0 +1,146 @@
+[
+  {
+    "week": 1,
+    "focus": "Course launch and lab readiness",
+    "keyLessons": ["Program overview", "Employability profile", "Kit inventory"],
+    "assessments": ["Inventory check", "Pin ID exit ticket"],
+    "deliverables": ["Signed safety agreement", "Completed inventory sheet"],
+    "unitId": "pre-unit-0",
+    "labIds": ["lab-kit-inventory", "lab-ic-pin-identification"]
+  },
+  {
+    "week": 2,
+    "focus": "Binary foundations",
+    "keyLessons": ["Binary place value", "Decimal-binary conversion practice"],
+    "assessments": ["Binary quick check"],
+    "deliverables": ["Conversion notes"],
+    "unitId": "unit-1",
+    "labIds": []
+  },
+  {
+    "week": 3,
+    "focus": "Waveform literacy",
+    "keyLessons": ["Digital states over time", "Waveform conventions"],
+    "assessments": ["Worksheet review"],
+    "deliverables": ["Annotated waveform packet"],
+    "unitId": "unit-1",
+    "labIds": ["lab-digital-waveforms"]
+  },
+  {
+    "week": 4,
+    "focus": "Clock signals and timing evidence",
+    "keyLessons": ["555 timer observation", "Claim-evidence practice"],
+    "assessments": ["Waveform performance check"],
+    "deliverables": ["Observation data table", "Notebook reflection"],
+    "unitId": "unit-1",
+    "labIds": ["lab-clock-signal-observation"]
+  },
+  {
+    "week": 5,
+    "focus": "Mystery chip protocol",
+    "keyLessons": ["Controlled testing design", "Truth table review"],
+    "assessments": ["Procedure checkpoint"],
+    "deliverables": ["Lab setup plan"],
+    "unitId": "unit-2",
+    "labIds": []
+  },
+  {
+    "week": 6,
+    "focus": "NOT gate discovery",
+    "keyLessons": ["7404 unknown investigation", "Evidence logging"],
+    "assessments": ["Claim conference"],
+    "deliverables": ["NOT truth table"],
+    "unitId": "unit-2",
+    "labIds": ["lab-7404-not-discovery"]
+  },
+  {
+    "week": 7,
+    "focus": "AND gate discovery",
+    "keyLessons": ["7408 unknown investigation", "Input matrix testing"],
+    "assessments": ["Data quality check"],
+    "deliverables": ["AND truth table"],
+    "unitId": "unit-2",
+    "labIds": ["lab-7408-and-discovery"]
+  },
+  {
+    "week": 8,
+    "focus": "OR gate discovery",
+    "keyLessons": ["7432 unknown investigation", "Comparative reasoning"],
+    "assessments": ["Notebook check"],
+    "deliverables": ["OR truth table", "Comparison notes"],
+    "unitId": "unit-2",
+    "labIds": ["lab-7432-or-discovery"]
+  },
+  {
+    "week": 9,
+    "focus": "Technical writing cycle",
+    "keyLessons": ["Lab report drafting", "Peer review protocol"],
+    "assessments": ["Logic gate lab report"],
+    "deliverables": ["Final lab report"],
+    "unitId": "unit-2",
+    "labIds": ["lab-logic-gate-report"]
+  },
+  {
+    "week": 10,
+    "focus": "NAND discovery",
+    "keyLessons": ["7400 unknown investigation", "Universal gate preview"],
+    "assessments": ["Stand-up share"],
+    "deliverables": ["NAND evidence log"],
+    "unitId": "unit-3",
+    "labIds": ["lab-7400-nand-discovery"]
+  },
+  {
+    "week": 11,
+    "focus": "NOR discovery",
+    "keyLessons": ["7402 unknown investigation", "NAND/NOR comparisons"],
+    "assessments": ["Comparison exit ticket"],
+    "deliverables": ["NOR truth table"],
+    "unitId": "unit-3",
+    "labIds": ["lab-7402-nor-discovery"]
+  },
+  {
+    "week": 12,
+    "focus": "Equality logic",
+    "keyLessons": ["7486 behavior", "XOR to XNOR reasoning"],
+    "assessments": ["Application explanation"],
+    "deliverables": ["Equality logic table"],
+    "unitId": "unit-3",
+    "labIds": ["lab-7486-equality-investigation"]
+  },
+  {
+    "week": 13,
+    "focus": "Universal gate challenge planning",
+    "keyLessons": ["Design constraints", "Prototype planning"],
+    "assessments": ["Design proposal check"],
+    "deliverables": ["Draft circuit diagram"],
+    "unitId": "unit-3",
+    "labIds": ["lab-universal-gate-challenge"]
+  },
+  {
+    "week": 14,
+    "focus": "Build and troubleshoot",
+    "keyLessons": ["Prototype testing", "Revision logging"],
+    "assessments": ["Progress conference"],
+    "deliverables": ["Revision log"],
+    "unitId": "unit-3",
+    "labIds": ["lab-universal-gate-challenge"]
+  },
+  {
+    "week": 15,
+    "focus": "Defense and reflection",
+    "keyLessons": ["Oral defense rehearsal", "Peer critique"],
+    "assessments": ["Universal gate defense"],
+    "deliverables": ["Final build evidence"],
+    "unitId": "unit-3",
+    "labIds": ["lab-universal-gate-challenge"]
+  },
+  {
+    "week": 16,
+    "focus": "Semester synthesis and exam",
+    "keyLessons": ["Concept review", "Portfolio curation"],
+    "assessments": ["Marking period exam", "Notebook evaluation"],
+    "deliverables": ["Exam submission", "Final reflection"],
+    "unitId": "unit-3",
+    "labIds": []
+  }
+]

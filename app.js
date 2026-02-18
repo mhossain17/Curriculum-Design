@@ -3922,7 +3922,6 @@
   function highlightInElement(container, query) {
     if (!container || !query) return;
 
-    const expression = new RegExp(escapeRegExp(query), "gi");
     const normalizedQuery = query.toLowerCase();
     const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
       acceptNode(node) {
